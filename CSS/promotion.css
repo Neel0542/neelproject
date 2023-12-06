@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+/* Navigation Bar Starts */
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    position: sticky; /* for sticky navbar on top */
+    top: 0;
+}
+
+.logo{
+    width: 20%;
+    display: flex;
+    align-items: center;
+    padding-left: 1%;
+}
+
+.logo img{
+    width: 30%;
+    border: 3px solid yellowgreen;
+    border-radius: 50%;
+}
+
+.nav-list{
+    width: 100%;
+    align-items: center;
+    display: flex;
+    justify-content: right;
+}
+
+.nav-list li{
+    list-style: none;
+    padding: 2% 3%;
+    text-align: right;
+}
+
+.nav-list li a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.nav-list li a:hover{ 
+    color: grey;
+}
+
+.background{
+    background: rgba(0, 0, 0, 0.7) url('../bgim/1.jpg');
+    background-size: cover;
+    background-blend-mode: darken;
+}
+
+/* Navigation Bar Ends*/
+
+/* For Footer */
+
+.text-footer{
+    text-align: center;
+    padding: 0.5%;
+    color: white;
+}
+
+/* Footer Ends */
+
+.promo{
+    height: 65vh;
+    padding: 5% 10%;
+}
+
+.h3{
+    margin-top: 1%;
+    text-decoration-line: underline;
+}
+
+.h1{
+    text-align: center;
+    text-decoration-line: underline;
+}
+
+.h2{
+    font-size: 18px;
+    font-style: oblique;
+    font-weight: bold;
+    margin-top: 1%;
+}
